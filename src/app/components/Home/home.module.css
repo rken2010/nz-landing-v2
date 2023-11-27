@@ -1,0 +1,11 @@
+.homeContainer{
+    display: flex;
+    width: 90rem;
+    height: 64rem;
+    padding: 0rem 3.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    background: url(../../../../public/img/home.png), lightgray 50% / cover no-repeat;
+}
