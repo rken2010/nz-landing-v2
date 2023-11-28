@@ -1,0 +1,15 @@
+.proyect__container{
+    padding: 71px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    .proyect__container_card{
+        width: 100vw;
+        display:flex;
+        gap: 33px;
+        flex-wrap: wrap;
+    
+    }
+}
+

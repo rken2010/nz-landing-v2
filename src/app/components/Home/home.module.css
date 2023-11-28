@@ -12,19 +12,24 @@
     display: grid;
     grid-template-columns: repeat(12, auto);
     grid-template-rows: repeat(4, auto);
-    gap:15px;
+    gap:25px;
     width: 100vw;
     height: 100vh;
     background: url(../../../../public/img/home.png), lightgray 50% / cover no-repeat;
 
     
     .title{
-        grid-column: 6/12;
+        grid-column: 5/12;
         grid-row: 2/2;
+        background-color: rgba(255,255,255,0.3);
+        border: 3px solid #8D414D;
+        padding: 15px ;
+        
     }
     .subtitle{
         font-size: 60px;
-        grid-column: 7/10;
+        grid-column: 8/10;
         grid-row: 3/3;
+        color: #418C50;
     }
 }
