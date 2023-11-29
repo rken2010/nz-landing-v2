@@ -54,3 +54,12 @@
     position: relative;
     bottom: 0;
 }
+
+@media (width < 420px){
+    .form__container{
+        width: 320px;
+    }
+    .form__img{
+        display: none;
+    }
+}

@@ -9,3 +9,10 @@
     }
 
 }
+
+@media(width < 420px) {
+    .contact__container{
+        display: flex;
+        flex-direction: column;
+    }
+}
