@@ -1,5 +1,4 @@
 
-
 .home__container{
     width: 100vw;
     height: 100vh;
@@ -15,14 +14,14 @@
     .home__title{
         grid-column: 2/4;
         grid-row: 2/2;
-        font-family: 'Great Vibes', cursive;
+        font-family: var(--primary-typografy);
         font-size: 3em;
         text-align: center;
     }
     .home__subtitle{
         grid-column: 2/4;
         grid-row: 3/3;
-        font-family: 'Josefin Slab', serif;
+        font-family: var(--secondary-typografy);
         font-size: 1.2em;
         align-self: start;
         justify-self: center;
