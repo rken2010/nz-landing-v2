@@ -1,14 +1,29 @@
-import React from 'react'
-import styles from "./beneficios.module.css"
+import React from 'react';
+import CardBen from '../CardBen/CardBen';
 
-type Props = {}
-
-function Beneficios({}: Props) {
-  return (
-    <section>
-        
-    </section>
-  )
+interface Props {
+  beneficios?: {
+    icono: string;
+    titulo: string;
+    texto: string;
+  }[];
 }
 
-export default Beneficios
+function Beneficios(props: Props) {
+  const beneficios = props.beneficios ?? [];
+
+  return (
+    <section>
+      {beneficios.map((beneficio) => (
+        <CardBen
+          icono={beneficio.icono}
+          titulo={beneficio.titulo}
+          texto={beneficio.texto}
+          key={beneficio.titulo}
+        />
+      ))}
+    </section>
+  );
+}
+
+export default Beneficios;

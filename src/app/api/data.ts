@@ -4,8 +4,14 @@ interface contenidoCardProyect{
     texto:string,
 }
 
+interface beneficios{
+  icono:string,
+  titulo:string,
+  texto:string,
+}
 
-const proyecto:contenidoCardProyect[] = [
+export const api ={
+   proyecto: [
     {   
         icono:`<svg xmlns="http://www.w3.org/2000/svg" width="158" height="158" viewBox="0 0 158 158" fill="none">
         <g filter="url(#filter0_d_69_114)">
@@ -49,6 +55,17 @@ const proyecto:contenidoCardProyect[] = [
       </svg>`,
         titulo:"ESTUDIO PRELIMINAR",
         texto:" realizamos un análisis del entorno del proyecto, las normativas aplicables y las condiciones técnicas requeridas"
-    },
+    }  
+],
+beneficios:[
+  {
+    icono: "Lorem ipsum dolor sit amet.",
+    titulo: "Lorem ipsum dolor sit amet.",
+    texto:"Lorem ipsum dolor sit amet."
 
+  }
 ]
+
+}
+
+export default api

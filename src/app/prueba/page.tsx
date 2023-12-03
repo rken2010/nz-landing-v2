@@ -2,14 +2,15 @@ import React from 'react'
 import Inicio from '../prueba/componentsPrueba/Inicio/Inicio'
 import Beneficios from './componentsPrueba/Beneficios/Beneficios'
 import "../globals.css"
+import api from '../api/data'
 
-type Props = {}
 
-const Prueba = (props: Props) => {
+
+const Prueba = () => {
   return (
     <div>
         <Inicio />
-        <Beneficios />
+        <Beneficios beneficios ={api.beneficios}/>
     </div>
   )
 }
