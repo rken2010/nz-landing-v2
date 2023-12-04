@@ -2,26 +2,33 @@ import * as React from 'react';
 import styles from './card.module.css'
 
 export interface IAppProps {
-  image:string,
+  titulo:string,
+  subtitulo:string,
+  texto:string,
+  img:string,
   alt:string,
+  bg:string,
+  bgBt:string,
 }
 
 export function Card (props: IAppProps) {
   return (
-    <div className={styles.card__container}>
+     <article className={styles.card__container} 
+     style={{backgroundColor: `${props.bg}`}}>
       <div className={styles.card__img}>
-       <img className={styles.card__img} src={props.image} alt={props.alt}/>
+       <img className={styles.card__img} src={props.img} alt={props.alt}/>
       </div>
       <div className={styles.card__footer}>
-        <h3>Planos </h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h3 className={styles.card__footer_title} style={{color:`${props.bgBt}`}}>{props.titulo} </h3>
+        <h4 className={styles.card__footer_subtitle}>{props.subtitulo}</h4>
+        <p className={styles.card__footer_txt}>{props.texto}</p>
       </div>
       <div>
-        <button className={styles.card__bt}>
+        <button className={styles.card__bt} style={{backgroundColor: `${props.bgBt}`}}>
           Consulte!
         </button>
       </div>
       
-    </div>
+    </article>
   );
 }

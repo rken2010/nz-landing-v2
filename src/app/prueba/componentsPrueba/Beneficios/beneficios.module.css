@@ -1,0 +1,7 @@
+.ben__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin:2rem 2rem
+}

@@ -1,8 +1,31 @@
 .container{
-    width: 15rem;
-    height: 45rem;
+    width: 20rem;
+    height: 20rem;
+    padding:1.5rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,1fr);
-    gap: 1rem;
+    grid-template-rows: 6rem 3rem auto;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: var(--primary-color);
+
+    .icon{
+        margin: 0 auto;
+    .icon_img{
+            object-fit: cover;
+            width: 6rem;
+    }
+    
+    }
+    .title{
+        font-family: var(--primary-typografy);
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .text{
+        font-family:var(--terciary-typografy);
+        font-size:1em;
+    }
 }

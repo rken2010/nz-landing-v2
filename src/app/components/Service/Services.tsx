@@ -2,16 +2,38 @@ import React from 'react'
 import { Card } from '../Card/Card'
 import styles from './service.module.css'
 
-type Props = {}
+type Props = {
+  servicios?:{
+    titulo:string,
+    subtitulo:string,
+    texto:string,
+    img:string,
+    alt:string,
+    bg:string,
+    bgBt:string
+  }[];
+}
 
 `use client`
 
-export default function Services({}: Props) {
+export default function Services(props: Props) {
+  const servicios = props.servicios ?? [];
   return (
     <section className={styles.service__container}>
-        <Card image="img/planos-header.png" alt='dibujo-planos'/>
-        <Card image="img/card-hab.png" alt='diseño-interiores'/>
-        <Card image="img/card-img.png" alt='tramites-servicios'/>
+      <h2 className={styles.service__container_title}>Ofrecemos nuestros servicios para ayudarte a construir el hogar de tus sueños.</h2>
+      <div className={styles.service__container_card}>
+      {servicios.map((servicios) => (
+        <Card 
+          titulo={servicios.titulo}
+          subtitulo={servicios.subtitulo}
+          texto={servicios.texto}
+          img= {servicios.img}
+          alt= {servicios.alt}
+          bg={servicios.bg}
+          bgBt={servicios.bgBt}
+          />
+      ))}
+      </div>
     </section>
   )
 }

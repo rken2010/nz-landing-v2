@@ -1,5 +1,6 @@
 import React from 'react';
 import CardBen from '../CardBen/CardBen';
+import styles from "./beneficios.module.css"
 
 interface Props {
   beneficios?: {
@@ -13,7 +14,8 @@ function Beneficios(props: Props) {
   const beneficios = props.beneficios ?? [];
 
   return (
-    <section>
+    <section className={styles.ben__container}>
+      
       {beneficios.map((beneficio) => (
         <CardBen
           icono={beneficio.icono}

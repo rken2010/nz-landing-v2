@@ -11,7 +11,7 @@ function CardBen({icono, titulo, texto}: Props) {
   return (
     <article className={styles.container}>
         <div className={styles.icon}>
-
+        <img className={styles.icon_img} src={icono} alt={titulo}/>
         </div>
         <div className={styles.title}>
             <h2>{titulo}</h2>
