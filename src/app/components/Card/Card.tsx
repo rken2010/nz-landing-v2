@@ -16,7 +16,7 @@ export function Card (props: IAppProps) {
      <article className={styles.card__container} 
      style={{backgroundColor: `${props.bg}`}}>
       <div className={styles.card__img}>
-       <img className={styles.card__img} src={props.img} alt={props.alt}/>
+       <img className={styles.card__img_img} src={props.img} alt={props.alt}/>
       </div>
       <div className={styles.card__footer}>
         <h3 className={styles.card__footer_title} style={{color:`${props.bgBt}`}}>{props.titulo} </h3>

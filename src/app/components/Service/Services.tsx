@@ -31,6 +31,7 @@ export default function Services(props: Props) {
           alt= {servicios.alt}
           bg={servicios.bg}
           bgBt={servicios.bgBt}
+          key={servicios.titulo}
           />
       ))}
       </div>
