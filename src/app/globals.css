@@ -15,6 +15,7 @@ tipografia font-family: 'Great Vibes', cursive;
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 :root{
@@ -24,8 +25,14 @@ tipografia font-family: 'Great Vibes', cursive;
 
 --primary-color:#cf5551;
 --secondary-color: #dbdbd9;
---ter-color:# f9ce6;
+--ter-color:#f9ce6;
 }
+
+
+
+
+
+
 
 
 
