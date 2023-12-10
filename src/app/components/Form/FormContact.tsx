@@ -13,7 +13,7 @@ export function FormContact (props: IAppProps) {
         <Image width={250} height={320} src="/img/form-contact-img.png" alt="plant" className={styles.form__img}/>
       </div>
       <div>
-        <form action="" method="post" className={styles.form__content}>
+        <form name="contact" action="" method="post" className={styles.form__content} netlify >
           <h2>O escribinos tu consulta</h2>
           <input type="text" name="nombre" id="nombre" className={styles.form__input} placeholder='Nombre'/>
           <input type="tel" name="telefono" id="telefono" className={styles.form__input} placeholder='Teléfono'/>
