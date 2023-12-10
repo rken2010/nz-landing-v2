@@ -12,6 +12,15 @@ tipografia font-family: 'Great Vibes', cursive;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
 
+
+/*
+ICONOS
+*/
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 *{
     padding: 0;
     margin: 0;
@@ -25,11 +34,9 @@ tipografia font-family: 'Great Vibes', cursive;
 
 --primary-color:#cf5551;
 --secondary-color: #dbdbd9;
---ter-color:#f9ce6;
+--ter-color:#cfb851;
+
 }
-
-
-
 
 
 

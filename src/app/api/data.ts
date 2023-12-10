@@ -20,6 +20,12 @@ interface servicios{
   bgBt:string
 }
 
+interface footer{
+  titulo:string,
+  bajada: string,
+  logo:string
+}
+
 export const api ={
    proyecto: [
     {   
@@ -87,7 +93,10 @@ servicios:[
   },
  
 
-]
+],
+footer:{
+  logo:"/img/NZ.png"
+}
 
 }
 

@@ -2,7 +2,7 @@
 .home__container{
     width: 100vw;
     height: 100vh;
-    background-image: url("../../../../../public/img/sm-home.png");
+    background-image: url("/img/sm-home.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 
 @media (width > 380px){
     .home__container{
-    background-image: url("../../../../../public/img/home2-desktop.png");
+    background-image: url("/img/home2-desktop.png");
     grid-template-columns: repeat(12, 1fr);
     
     .home__title{

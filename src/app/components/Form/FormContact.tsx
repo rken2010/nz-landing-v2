@@ -14,7 +14,7 @@ export function FormContact (props: IAppProps) {
       </div>
       <div>
         <form action="" method="post" className={styles.form__content}>
-          <h2>Contactenos</h2>
+          <h2>O escribinos tu consulta</h2>
           <input type="text" name="nombre" id="nombre" className={styles.form__input} placeholder='Nombre'/>
           <input type="tel" name="telefono" id="telefono" className={styles.form__input} placeholder='Teléfono'/>
           <input type="email" name='email' id='email' className={styles.form__input}placeholder='Email'/>
