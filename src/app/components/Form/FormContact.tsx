@@ -18,7 +18,7 @@ export function FormContact (props: IAppProps) {
           <input type="text" name="nombre" id="nombre" className={styles.form__input} placeholder='Nombre'/>
           <input type="tel" name="telefono" id="telefono" className={styles.form__input} placeholder='Teléfono'/>
           <input type="email" name='email' id='email' className={styles.form__input}placeholder='Email'/>
-          <textarea cols={20} rows={5} placeholder='Dejanos tu consulta y te contestaremos a la brevedad'
+          <textarea cols={20} name="consulta" rows={5} placeholder='Dejanos tu consulta y te contestaremos a la brevedad'
             className={styles.form__textarea}
           />
           <button type="submit" value="Enviar" className={styles.form__bt}>Enviar</button>
