@@ -7,7 +7,7 @@ type Props = {}
 
 export default function Contact({}: Props) {
   return (
-    <section className={styles.contact__container}>
+    <section className={styles.contact__container} id='contact'>
         <article>
             <h2>Estos son nuestros medios de contacto</h2>
 

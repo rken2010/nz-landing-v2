@@ -67,8 +67,7 @@ servicios:[
   img:"./img/planos-header.png",
   alt:"planos-construccion",
   texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
-  bg:"#D9DBD6",
-  bgBt:"#636C71"
+  classStyle:"card__servicios"
 
 },
 
@@ -78,8 +77,7 @@ servicios:[
     img:"./img/card-hab.png",
     alt:"proyecto-construccion",
     texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
-    bg:"#E6CDA8",
-    bgBt:"#866346"
+    classStyle:"card__proyectos"
 
   },
   {
@@ -88,8 +86,7 @@ servicios:[
     img:"./img/card-img.png",
     alt:"tramites-construccion",
     texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
-    bg:"#D77365",
-    bgBt:"#551113"
+    classStyle:"card__tramites"
   },
  
 

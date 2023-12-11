@@ -27,5 +27,6 @@
     .text{
         font-family:var(--terciary-typografy);
         font-size:1em;
+        text-align: justify;
     }
 }

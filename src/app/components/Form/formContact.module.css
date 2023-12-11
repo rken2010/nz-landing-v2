@@ -1,12 +1,13 @@
 .form__container{
-    width: 40rem;
-    height: 30rem;
+    width: 90%;
     background: #FFF;
     box-shadow: -10px 20px 15px 3px rgba(0, 0, 0, 0.25);
     gap:3rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    padding-top: 2rem;
+    align-items: center;
+    padding: 1rem;
     .form__content{
         display: flex;
         flex-direction: column;
@@ -49,14 +50,11 @@
 }
 
 
-@media (width > 375px){
-.form__container{
-    width: 50rem;
-    height: 30rem;
+@media (width > 400px){
+.form__container{    
     flex-direction: row;
-    flex-shrink: 0;
     gap: 2rem;
-
+    
     .form__input{
         width: 21.25rem;
         height: 2rem;
@@ -72,9 +70,9 @@
         align-items: end;
     .form__img{
         display: flex;
-        position: relative;
-        bottom: 0;
-        left: 0;
+        align-items: end;
+        justify-content: start ; 
+       
     }
     }
 

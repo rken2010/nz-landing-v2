@@ -9,8 +9,7 @@ type Props = {
     texto:string,
     img:string,
     alt:string,
-    bg:string,
-    bgBt:string
+    classStyle:string
   }[];
 }
 
@@ -29,8 +28,7 @@ export default function Services(props: Props) {
           texto={servicios.texto}
           img= {servicios.img}
           alt= {servicios.alt}
-          bg={servicios.bg}
-          bgBt={servicios.bgBt}
+          classStyle={servicios.classStyle}
           key={servicios.titulo}
           />
       ))}
