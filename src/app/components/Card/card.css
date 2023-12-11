@@ -16,8 +16,7 @@
     height: 15rem;
     flex-direction: column;
     gap: 1rem;
-    padding: 1.2rem;
-    justify-content: space-around;
+    padding: 1rem;
     align-items: center;
 
     .card__footer_title{
