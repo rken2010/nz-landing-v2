@@ -1,20 +1,10 @@
 
 .contact__container{
-    display: grid;
-    grid-template-columns: repeat(12, auto);
-    gap:15px;
-    padding: 0 60px 10px 60px ;
-    margin:3rem 0 3rem 0;
-    .form__contact{
-        grid-column: 6/12;
-    }
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
 }
-
-@media(width < 420px) {
-    .contact__container{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
+   

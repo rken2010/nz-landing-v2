@@ -10,7 +10,7 @@ export function FormContact (props: IAppProps) {
   return (
     <div className={styles.form__container}>
       <div className={styles.form__container_img}>
-        <Image width={250} height={320} src="/img/form-contact-img.png" alt="plant" className={styles.form__img}/>
+        <Image width={100} height={150} src="/img/form-contact-img.png" alt="plant" className={styles.form__img}/>
       </div>
       <div>
         <form name="contact" className={styles.form__content} method="POST" data-netlify="true">
