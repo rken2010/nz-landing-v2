@@ -1,26 +1,23 @@
 .service__container{
-
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content:space-around ;
     gap:1rem;
     margin: 2rem 0 2rem 0 ;
+}
 
-    .service__container_title{
-        font-family: var(--secondary-typografy);
-        text-align: center;
-        margin: 2rem;
-    }
+.service__container_title{
+    font-family: var(--secondary-typografy);
+    text-align: center;
+    margin: 2rem;
+}
+
+.service__container_card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:1rem;
     
-    .service__container_card{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap:1rem;
-        
-        
-    }
-
-
+    
 }
