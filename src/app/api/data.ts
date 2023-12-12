@@ -76,7 +76,7 @@ servicios:[
 
   {
     titulo:"Planos y trámites",
-    subtitulo:"facilitamos tu vida",
+    subtitulo:"Facilitamos tu vida",
     img:"./img/planos-header.png",
     alt:"planos-construccion",
     texto:"Realizamos planos municipales por obra nueva o hecho consumado, carpetas de obra completa (Plano de plantas y cortes, de estructura, de instalaciones: gas, eléctrico, agua y cloacas).Tramites de habilitaciones, revaluós y otros.",
@@ -85,7 +85,7 @@ servicios:[
   },
   {
     titulo:"Obras",
-    subtitulo:"facilitamos tu vida",
+    subtitulo:"La construcción de tus sueños, a tu medida",
     img:"./img/card-img.png",
     alt:"tramites-construccion",
     texto:"Nos encargamos de todo el proceso de construcción organizando cada etapa para ello trabajamos con materiales de alta calidad y mano de obra especializada y experta de cada rubro y así garantizar un resultado óptimo desde la planificación hasta la entrega de tu obra",

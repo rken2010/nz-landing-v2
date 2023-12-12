@@ -8,9 +8,11 @@
 
 .redesBar {
   display: flex;
-  font-family: "Poppins", sans-serif;
-  justify-content: center;
-  gap: 1%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  
  
 }
 
@@ -19,24 +21,24 @@ i:hover{ color:black}
 .wrapper {
   width: 100%;
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
 }
 .wrapper li{
   background-color: var(--ter-color);
+  margin: 0 auto;
 }
 .wrapper .icon {
   position: relative;
   
-  border-radius: 50%;
-  padding: 15px;
-  margin: 10px;
-  width: 20px;
-  height: 20px;
-  font-size: 18px;
+  border-radius: 50%; 
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
