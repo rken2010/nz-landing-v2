@@ -88,7 +88,7 @@ servicios:[
     subtitulo:"La construcción de tus sueños, a tu medida",
     img:"./img/card-img.png",
     alt:"tramites-construccion",
-    texto:"Nos encargamos de todo el proceso de construcción organizando cada etapa para ello trabajamos con materiales de alta calidad y mano de obra especializada y experta de cada rubro y así garantizar un resultado óptimo desde la planificación hasta la entrega de tu obra",
+    texto:"Nos encargamos de todo el proceso de construcción organizando cada etapa. Trabajamos con materiales de alta calidad y mano de obra especializada en cada rubro. Garantizamos un resultado óptimo desde la planificación hasta la entrega de tu obra",
     classStyle:"card__tramites"
   },
  
