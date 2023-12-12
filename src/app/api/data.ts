@@ -61,27 +61,30 @@ beneficios:[
 ],
 
 servicios:[
-   {
-  titulo:"Planos",
-  subtitulo:"facilitamos tu vida",
-  img:"./img/planos-header.png",
-  alt:"planos-construccion",
-  texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
-  classStyle:"card__servicios"
 
-},
 
   {
     titulo:"Proyectos",
     subtitulo:"Llevamos tu espacio a la realidad",
     img:"./img/card-hab.png",
     alt:"proyecto-construccion",
-    texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
+    texto:"Nos encargamos de recopilar toda la información para cumplir con las necesidades del cliente. Apoyándonos en nuestro conocimiento técnico llevamos adelante el proyecto con profesionalismo.",
+
     classStyle:"card__proyectos"
 
   },
+
   {
-    titulo:"Trámites",
+    titulo:"Planos y trámites",
+    subtitulo:"facilitamos tu vida",
+    img:"./img/planos-header.png",
+    alt:"planos-construccion",
+    texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
+    classStyle:"card__servicios"
+  
+  },
+  {
+    titulo:"Obras",
     subtitulo:"facilitamos tu vida",
     img:"./img/card-img.png",
     alt:"tramites-construccion",
