@@ -68,7 +68,7 @@ servicios:[
     subtitulo:"Llevamos tu espacio a la realidad",
     img:"./img/card-hab.png",
     alt:"proyecto-construccion",
-    texto:"Nos encargamos de recopilar toda la información para cumplir con las necesidades del cliente. Apoyándonos en nuestro conocimiento técnico llevamos adelante el proyecto con profesionalismo.",
+    texto:"Nos encargamos de recopilar toda la información para cumplir con las necesidades del cliente. Apoyándonos en nuestro conocimiento técnico llevamos adelante el proyecto con profesionalismo. Contamos con los mejores profesionales para las tareas.",
 
     classStyle:"card__proyectos"
 
@@ -79,7 +79,7 @@ servicios:[
     subtitulo:"facilitamos tu vida",
     img:"./img/planos-header.png",
     alt:"planos-construccion",
-    texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
+    texto:"Realizamos planos municipales por obra nueva o hecho consumado, carpetas de obra completa (Plano de plantas y cortes, de estructura, de instalaciones: gas, eléctrico, agua y cloacas).Tramites de habilitaciones, revaluós y otros.",
     classStyle:"card__servicios"
   
   },
@@ -88,7 +88,7 @@ servicios:[
     subtitulo:"facilitamos tu vida",
     img:"./img/card-img.png",
     alt:"tramites-construccion",
-    texto:"Nos encargamos de todo el proceso de construcción, desde la planificación hasta la entrega. Trabajamos con materiales de alta calidad y mano de obra experta para garantizar un resultado óptimo.",
+    texto:"Nos encargamos de todo el proceso de construcción organizando cada etapa para ello trabajamos con materiales de alta calidad y mano de obra especializada y experta de cada rubro y así garantizar un resultado óptimo desde la planificación hasta la entrega de tu obra",
     classStyle:"card__tramites"
   },
  
